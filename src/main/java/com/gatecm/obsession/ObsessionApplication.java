@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 //该 @SpringBootApplication 注解等价于以默认属性使用:
 //@Configuration
 //@EnableAutoConfiguration
-//@ComponentScan
+//@ComponentScan  
 @SpringBootApplication
 @ServletComponentScan
 @EnableTransactionManagement
