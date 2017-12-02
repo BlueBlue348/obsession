@@ -88,7 +88,6 @@ public class BasicRealm extends AuthorizingRealm {
 		UsernamePasswordToken token = (UsernamePasswordToken) authcToken;
 		
 		Map<String, Object> columnMap = new HashMap<String, Object>();
-		
 		columnMap.put("nickname", token.getUsername());
 		List<Member> users = memberDao.selectByMap(columnMap);
 		Member user;
